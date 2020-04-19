@@ -1,0 +1,120 @@
+table.comBorda {
+    border-collapse: collapse; 
+    background: #FFFFF0;
+    border: solid #000000 1px; 
+}
+ 
+table.comBorda td {
+    border: 1px solid #000000;
+    background: black;
+    color: white;
+}
+ 
+table.comBorda th {
+    border: 1px solid blue;
+    border-bottom: 2px solid green;
+    background: gray;
+    color: white;
+}
+/*Listas*/
+ul.removerPontos{
+    list-style-type: none;
+    background-color:black;
+    color:white;
+ }
+
+ol {
+    list-style-type: none;
+    background-color:black;
+    color:yellow;
+ }
+
+/*Botões para os Links*/
+.exemplo {
+    font:normal bold 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif; /* fonte do link - define o tamanho da letra, fonte da letra etc */
+    margin:0px;
+}
+a.exemplo:link {
+    color:#FFFFFF; /* cor do texto do botão */
+    background:#FF4040; /* cor de fundo alternativo , aparecerá nos navegadores que não aceitam CSS3 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF4040), to(#CD0000)); /* cores que formarão o gradiente de fundo, a primeira cor fica no topo do botão e a segunda na parte de baixo */
+    background: -moz-linear-gradient(top, #FF4040, #CD0000); /* repita as cores do gradiente que você escolheu */
+    border:1px solid #8B0000; /* cor da borda */
+    text-decoration:none;
+    padding:5px;
+    outline:none;
+    -moz-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -goog-ms-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    border-radius:5px; /* valor do arredondamento das pontas do botão */
+}
+a.exemplo:visited {
+    color:#FFFFFF; /* cor do texto do botão que já foi clicado */
+    background:#FF4040; /* cor de fundo alternativo do botão que já foi clicado */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF4040), to(#CD0000)); /* gradiente de fundo do botão que já foi clicado */
+    background: -moz-linear-gradient(top, #FF4040, #CD0000); /* gradiente de fundo do botão que já foi clicado */
+    border:1px solid #8B0000; /* cor da borda do botão que já foi clicado */
+    text-decoration:none;
+    padding:5px;
+    outline:none;
+    -moz-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -goog-ms-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    border-radius:5px; /* valor do arredondamento das pontas do botão */
+}
+a.exemplo:hover {
+    color:#FFFFFF; /* cor do texto do botão com o mouse em cima */
+    background:#FF4040; /* cor de fundo alternativo com o mouse em cima */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF4040), to(#CD0000)); /* gradiente de fundo com o mouse em cima */
+    background: -moz-linear-gradient(top, #FF4040, #CD0000); /* gradiente de fundo com o mouse em cima */
+    border:1px solid #8B0000; /* cor da borda com o mouse em cima */
+    text-decoration:none;
+    padding:5px;
+    outline:none;
+    -moz-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -goog-ms-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-box-shadow: 0px 0px 5px #333333; /* cor da sombra do botão quando o mouse está em cima do botão */
+    -moz-box-shadow: 0px 0px 5px #333333; /*cor da sombra do botão quando o mouse está em cima do botão */
+    box-shadow: 0px 0px 5px #333333; /*cor da sombra do botão quando o mouse está em cima do botão */
+}
+a.exemplo:active {
+    color:#FFFFFF; /* cor do texto do botão quando é clicado */
+    background:#000000; /* cor de fundo do botão quando é clicado */
+    border:1px solid #000000; /* cor da borda do botão quando é clicado */
+    text-decoration:none;
+    padding:5px;
+    outline:none;
+    -moz-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -goog-ms-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-box-shadow: 0px 0px 0px #333333;
+    -moz-box-shadow: 0px 0px 0px #333333;
+    box-shadow: 0px 0px 0px #333333;
+}
+
+p{
+    size: 14px;
+    font-family: 'Times New Roman';
+}
+
+label{
+    font-family: Arial Narrow Bold';
+}
+
+
+
+
+
+
+
+1. Cabeçalho: Fundo azul e texto branco.
+
+
+
+3. Seção 1: Troque a fonte para Times New Roman de todos os parágrafos,
+tamanho 14px.
+
+5. Seção 3: Faça todas as etiquetas(label) do campo terem texto em negrito.
